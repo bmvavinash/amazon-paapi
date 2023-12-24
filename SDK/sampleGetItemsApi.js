@@ -33,8 +33,8 @@ defaultClient.secretKey = '<YOUR SECRET KEY>';
  * PAAPI Host and Region to which you want to send request.
  * For more details refer: https://webservices.amazon.com/paapi5/documentation/common-request-parameters.html#host-and-region
  */
-defaultClient.host = 'webservices.amazon.com';
-defaultClient.region = 'us-east-1';
+defaultClient.host = 'webservices.amazon.in';
+defaultClient.region = 'eu-west-1';
 
 var api = new ProductAdvertisingAPIv1.DefaultApi();
 
@@ -43,7 +43,7 @@ var api = new ProductAdvertisingAPIv1.DefaultApi();
 var getItemsRequest = new ProductAdvertisingAPIv1.GetItemsRequest();
 
 /** Enter your partner tag (store/tracking id) and partner type */
-getItemsRequest['PartnerTag'] = '<YOUR PARTNER TAG>';
+getItemsRequest['PartnerTag'] = 'trfacts2-21';
 getItemsRequest['PartnerType'] = 'Associates';
 
 /** Enter the Item IDs for which item information is desired */

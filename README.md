@@ -21,11 +21,11 @@ npm install amazon-paapi --save
 const amazonPaapi = require('amazon-paapi');
 
 const commonParameters = {
-  AccessKey: '<YOUR  ACCESS  KEY>',
-  SecretKey: '<YOUR  SECRET  KEY>',
-  PartnerTag: '<YOUR  PARTNER  TAG>', // yourtag-20
+  AccessKey: 'AKIAIC7STS7ZQHBDA7GQ',
+  SecretKey: 'm30UrYQDN5TyCpBem0c4Wuqbfd4ghCKr1TPd/IiQ',
+  PartnerTag: 'trfacts2-21', // yourtag-20
   PartnerType: 'Associates', // Default value is Associates.
-  Marketplace: 'www.amazon.com', // Default value is US. Note: Host and Region are predetermined based on the marketplace value. There is no need for you to add Host and Region as soon as you specify the correct Marketplace value. If your region is not US or .com, please make sure you add the correct Marketplace value.
+  Marketplace: 'www.amazon.in', // Default value is US. Note: Host and Region are predetermined based on the marketplace value. There is no need for you to add Host and Region as soon as you specify the correct Marketplace value. If your region is not US or .com, please make sure you add the correct Marketplace value.
 };
 
 const requestParameters = {
@@ -56,11 +56,11 @@ amazonPaapi
 const amazonPaapi = require('amazon-paapi');
 
 const commonParameters = {
-  AccessKey: '<YOUR  ACCESS  KEY>',
-  SecretKey: '<YOUR  SECRET  KEY>',
-  PartnerTag: '<YOUR  PARTNER  TAG>', // yourtag-20
+  AccessKey: 'AKIAIC7STS7ZQHBDA7GQ',
+  SecretKey: 'm30UrYQDN5TyCpBem0c4Wuqbfd4ghCKr1TPd/IiQ',
+  PartnerTag: 'trfacts2-21', // yourtag-20
   PartnerType: 'Associates', // Default value is Associates.
-  Marketplace: 'www.amazon.com', // Default value is US. Note: Host and Region are predetermined based on the marketplace value. There is no need for you to add Host and Region as soon as you specify the correct Marketplace value. If your region is not US or .com, please make sure you add the correct Marketplace value.
+  Marketplace: 'www.amazon.in', // Default value is US. Note: Host and Region are predetermined based on the marketplace value. There is no need for you to add Host and Region as soon as you specify the correct Marketplace value. If your region is not US or .com, please make sure you add the correct Marketplace value.
 };
 ```
 
