@@ -291,11 +291,15 @@ app.get('/getVariations', async (req, res) => {
 app.get('/searchItems', async (req, res) => {
   // Similar structure as above, modify for searchItems
 });
+app.get('/', async (req, res) => {
+  res.send("Helloo World");
+  // Similar structure as above, modify for searchItems
+});
 
 // ... (Your existing code)
 
 // Start the Express server
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
 
